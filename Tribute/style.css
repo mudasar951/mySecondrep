@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#title-page{
+    width: 400px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.img-div img{
+width: 100vh;
+}
+
+.details{
+   display: flex;
+   width: 500px;
+   justify-items: center;
+   text-align: justify;
+   margin-top: 3rem;
+   line-height: 250%;
+   font-size: 20px;
+}
+
+#tribute-info{
+    width: 700px;
+}
